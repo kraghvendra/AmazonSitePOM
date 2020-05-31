@@ -14,16 +14,7 @@ public class common {
 	      }
 	   }
 
-	   public static String[] readCSV(String fname) throws IOException{
-	      
-	      File f1=new File(fname);
-	      FileReader fr= new FileReader(f1);
-	      BufferedReader br= new BufferedReader(fr);
-	      String line= br.readLine();
-	      String [] data= line.split(",");
-	      return data;
-	      
-	   }
+	   
 	   
 	}
 
