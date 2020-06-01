@@ -26,7 +26,8 @@ public class driver {
 	   public static WebDriver driver;
 	   
 	   public static void main(String[] args) throws Exception {
-		      
+		
+	   // Call method to do addToCart operation	   
 	   POM.SPECS.login.login1();
 		      
 	

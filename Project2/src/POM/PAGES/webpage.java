@@ -9,6 +9,7 @@ public class webpage {
 	public static String siteurl, item_name;
 	public static String search_item= "Men's Gb 2354116_Olive Green_5 Boots";
 	
+	 //getter methods to get elements on the web page
 	 public static WebElement getSearchbox(){
 	     searchbox=POM.CONFIGURATION.driver.driver.findElement(By.id("twotabsearchtextbox"));
 	     return searchbox ;
